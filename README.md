@@ -19,7 +19,8 @@ can be used.
 There is varying support for collectors on each operating system. The tables
 below list all existing collectors and the supported systems.
 
-Collectors are enabled by providing a `--collector.<name>` flag. To change to disable by default, change para **defaultEnabled** -> **defaultDisabled** in function `init()` of file code `./collector/xxx.go`.
+Collectors are enabled by providing a `--collector.<name>` flag. To change to disable by default, change para **defaultEnabled** -> **defaultDisabled** in function `init()` of file code `./collector/xxx.go` and rebuild.
+
 Collectors that are enabled by default can be disabled by providing a `--no-collector.<name>` flag.
 
 ### Enabled by default
